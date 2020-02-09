@@ -46,7 +46,7 @@ The general structure of the algorithm is the following.
   * **Mutation rate = 0.01**: Precision of **89 %**
   * **Mutation rate = 0.1**: Precision of **94 %**
   * **Mutation rate = 0.2**: Precision of **98 %**
-* ** Number of items = 100**
+* **Number of items = 100**
   * **Mutation rate = 0.01**: Precision of **53 %**
   * **Mutation rate = 0.1**: Precision of **60 %**
   * **Mutation rate = 0.2**: Precision of **67 %**
