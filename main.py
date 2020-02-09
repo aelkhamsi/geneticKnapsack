@@ -67,7 +67,7 @@ def main(filename):
         r=R,
         m=M
     )
-    knapsack.run()  #optimal solution 1111010000, with a fitness of 309
+    knapsack.run()
     print("Optimal Score: ", optimalScore)
 
 

@@ -190,6 +190,7 @@ class GenKnapsack:
         #Results
         print("Solution: " + winner)
         print("Score: " + str(self.fitness(winner)))
+        return self.fitness(winner)
 
 
     def desc(self): # banner + info
