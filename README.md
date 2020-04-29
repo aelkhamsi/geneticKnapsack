@@ -12,13 +12,13 @@ To launch the genetic algorithm for solving knapsack problem, you should choose 
 
 * **n_obj**                 :  number of items (must be in [10, 20, 100, 1000])
 * **n_iter** (default: 200) :  number of generations
-* **p**      (default: 200) :  number of hypothesis in a generation
+* **n_pop**      (default: 200) :  number of hypothesis in a generation
 * **r**      (default: 0.6) :  crossover rate
 * **m**      (default: 0.01):  mutation rate
 
 ## Genetic Algorithm
 
-The implemented algoithm is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms.
+The implemented algorithm is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms.
 The general structure of the algorithm is the following.
     
     P = initialization()
