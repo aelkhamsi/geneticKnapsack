@@ -4,7 +4,7 @@ import sys
 N_ITER = 200
 P = 200
 R = 0.6
-M = 0.01
+M = 0.2
 
 # def parser(filepath):
     # def is_integer(s):
@@ -78,7 +78,7 @@ n_obj                 :  number of items (must be in [10, 20, 100, 1000])
 n_iter (default: 200) :  number of generations
 p      (default: 200) :  number of hypothesis in a generation
 r      (default: 0.6) :  crossover rate
-m      (default: 0.01):  mutation rate
+m      (default: 0.2):  mutation rate
 
 For example:
     python3 main.py 20
@@ -117,12 +117,14 @@ if __name__ == "__main__":
         try:
             R = float(sys.argv[4])
         except Exception as e:
-            print("error R")
+            #print("error R")
+            pass
 
         try:
             M = float(sys.argv[5])
         except Exception as e:
-            print("error M")
+            #print("error M")
+            pass
 
         if str(num_objects) not in ['10', '20', '100', '1000']:
             print(errorMessage)
