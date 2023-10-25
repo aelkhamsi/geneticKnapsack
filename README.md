@@ -1,4 +1,4 @@
-# Genetic Algorithm for the Knapsack Porblem
+# Genetic Algorithm for the Knapsack Problem
 
 ## Problem
 
